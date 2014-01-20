@@ -16,6 +16,7 @@ namespace Versaler
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
             Result.Text = "Antalet versaler är: " + Model.TextAnalyzer.GetNumberofCapitals(Text.Text).ToString();
             Text.Enabled = false;
             Button.Visible = false;
@@ -25,8 +26,10 @@ namespace Versaler
         protected void Button1_Click1(object sender, EventArgs e)
         {
             Result.Text = "";
+            Text.Text = "";
             Text.Enabled = true;
             Button.Visible = true;
+            
         }
     }
 }
