@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>VERSALER</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css"/>
 </head>
 <body style="height: 144px">
     <form id="form1" runat="server">
